@@ -1,15 +1,21 @@
 .pagina{
-    background: linear-gradient(to top, purple);
+    background: linear-gradient( rgb(186, 100, 100), rgb(142, 114, 177));
     
 }
 
 .titulo{
     text-align: center;
+    background-color: pink;
 }
 
 .integrantes-metallica{
     width: 350px;
+    border-color: pink;
+    border-style: solid;
+}
 
+.nome{
+    background-color: pink;
 }
 
 .container{
@@ -23,5 +29,33 @@
 .container p{
     flex: 1;
     text-align: justify;
+    font-size: 150%;
 }
 
+.container-2{
+    text-align: justify;
+    font-size: 150%;
+}
+
+.figuras{
+    width: 350px;
+}
+
+.container-2 img{
+    border-color: pink;
+    border-style: solid;
+}
+
+.container-3{
+    text-align: justify;
+    font-size: 150%;
+}
+
+.container-4{
+    text-align: justify;
+    font-size: 150%;
+}
+
+.float-dir{
+    float: right;
+}
